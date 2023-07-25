@@ -73,7 +73,7 @@
     "@semantic-release/git"
   ],
   "publish": [
-    "@semantic-release/npm -ws"
+    "@semantic-release/npm"
   ],
   "success": []
 }
