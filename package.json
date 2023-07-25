@@ -1,12 +1,10 @@
 {
-  "name": "colors-vegueta-test",
-  "version": "1.0.5",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "workspaces": [
+      "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+    "pack": "npm run pack -ws",
+    "build": "npm run pack -ws"
+  }
 }

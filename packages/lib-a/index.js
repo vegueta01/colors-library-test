@@ -18,4 +18,8 @@ exports.getRandomColor = () => {
   return allColors[Math.floor(Math.random() * allColors.length)];
 }
 
+exports.getName = () => {
+  return 'lib-a'
+}
+
 exports.allColors = allColors;
