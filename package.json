@@ -1,25 +1,25 @@
 {
   "name": "libraries-test",
   "private": true,
+  "type": "module",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "pack": "npm run pack -ws",
     "build": "npm run pack -ws",
-    "semantic-release": "semantic-release -e semantic-release-monorepo"
+    "semantic-release": "semantic-release"
+  },
+  "version": "1.2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vegueta01/colors-library-test.git"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^10.0.4",
-    "@semantic-release/release-notes-generator": "^11.0.4",
+    "@semantic-release/npm": "^10.0.2",
     "semantic-release": "^21.0.7",
     "semantic-release-monorepo": "^7.0.5"
-  },
-  "version": "1.1.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vegueta01/colors-library-test.git"
   }
 }
