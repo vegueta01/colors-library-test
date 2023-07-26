@@ -1,66 +1,10 @@
 {
-  "branch": "master",
-  "noCi": true,
-  "pkgRoot": ".",
+  "branches": ["master"],
   "plugins": [
-    [
-      "@semantic-release/commit-analyzer",
-      {
-        "preset": "angular",
-        "releaseRules": [
-          {
-            "type": "feat",
-            "release": "minor"
-          },
-          {
-            "type": "fix",
-            "release": "minor"
-          },
-          {
-            "type": "docs",
-            "release": "patch"
-          },
-          {
-            "type": "refactor",
-            "release": "patch"
-          },
-          {
-            "type": "style",
-            "release": "patch"
-          },
-          {
-            "type": "test",
-            "release": "patch"
-          }
-        ],
-        "parserOpts": {
-          "noteKeywords": [
-            "BREAKING CHANGE",
-            "BREAKING CHANGES"
-          ]
-        }
-      }
-    ],
+    "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/npm",
     "@semantic-release/git"
-  ],
-  "repositoryUrl": "https://github.com/vegueta01/colors-library-test.git",
-  "prepare": [
-    "@semantic-release/changelog",
-    "@semantic-release/npm",
-    {
-      "path": "@semantic-release/git",
-      "message": "chore(release): v${nextRelease.version} \n\n${nextRelease.notes}"
-    }
-  ],
-  "verifyConditions": [
-    "@semantic-release/changelog",
-    "@semantic-release/git"
-  ],
-  "publish": [
-    "@semantic-release/npm"
-  ],
-  "success": []
+  ]
 }

@@ -19,7 +19,7 @@ exports.getRandomColor = () => {
 }
 
 exports.getName = () => {
-  return 'lib-c'
+  return 'my-lib-c'
 }
 
 exports.allColors = allColors;

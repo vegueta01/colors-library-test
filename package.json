@@ -1,10 +1,7 @@
 {
   "name": "libraries-test",
   "private": true,
-  "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "scripts": {
     "pack": "npm run pack -ws",
     "build": "npm run pack -ws",
