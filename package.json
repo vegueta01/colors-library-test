@@ -7,14 +7,15 @@
   "scripts": {
     "pack": "npm run pack -ws",
     "build": "npm run pack -ws",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release -e semantic-release-monorepo"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^10.0.4",
     "@semantic-release/release-notes-generator": "^11.0.4",
-    "semantic-release": "^21.0.7"
+    "semantic-release": "^21.0.7",
+    "semantic-release-monorepo": "^7.0.5"
   },
   "version": "1.1.0",
   "repository": {
