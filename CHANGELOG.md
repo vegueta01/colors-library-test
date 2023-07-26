@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/vegueta01/colors-library-test/compare/v1.2.0...v1.3.0) (2023-07-26)
+
+
+### Features
+
+* my-lib-c changed name ([73df93a](https://github.com/vegueta01/colors-library-test/commit/73df93ac7a0021d39c5718ca7a285a4c6de8fcee))
+
 # [1.2.0](https://github.com/vegueta01/colors-library-test/compare/v1.1.0...v1.2.0) (2023-07-26)
 
 
