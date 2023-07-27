@@ -1,5 +1,4 @@
 {
-  "name": "libraries-test",
   "private": true,
   "workspaces": [
     "packages/*"
