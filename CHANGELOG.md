@@ -1,3 +1,31 @@
+# [1.4.0](https://github.com/vegueta01/colors-library-test/compare/v1.3.0...v1.4.0) (2023-07-27)
+
+
+### Features
+
+* semantic release package ([0ee938e](https://github.com/vegueta01/colors-library-test/commit/0ee938ed58df506f420f02917c72c71f01d2d940))
+
+# [1.4.0](https://github.com/vegueta01/colors-library-test/compare/v1.3.0...v1.4.0) (2023-07-27)
+
+
+### Features
+
+* semantic release package ([0ee938e](https://github.com/vegueta01/colors-library-test/commit/0ee938ed58df506f420f02917c72c71f01d2d940))
+
+# [1.4.0](https://github.com/vegueta01/colors-library-test/compare/v1.3.0...v1.4.0) (2023-07-27)
+
+
+### Features
+
+* semantic release package ([0ee938e](https://github.com/vegueta01/colors-library-test/commit/0ee938ed58df506f420f02917c72c71f01d2d940))
+
+# [1.4.0](https://github.com/vegueta01/colors-library-test/compare/v1.3.0...v1.4.0) (2023-07-27)
+
+
+### Features
+
+* semantic release package ([0ee938e](https://github.com/vegueta01/colors-library-test/commit/0ee938ed58df506f420f02917c72c71f01d2d940))
+
 # [1.3.0](https://github.com/vegueta01/colors-library-test/compare/v1.2.0...v1.3.0) (2023-07-26)
 
 

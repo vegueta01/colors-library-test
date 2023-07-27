@@ -1,0 +1,10 @@
+{
+  "branch": "master",
+  "noCi": true,
+  "pkgRoot": ".",
+  "plugins": [
+    "@semantic-release/npm"  ],
+  "publish": [
+    "@semantic-release/npm"
+  ]
+}

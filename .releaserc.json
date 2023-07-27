@@ -1,8 +1,7 @@
 {
   "branch": "master",
   "noCi": true,
-  "pkgRoot": "packages",
-  "pkgFiles": ["package.json", "package-lock.json"],
+  "pkgRoot": ".",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
@@ -60,8 +59,6 @@
     "@semantic-release/changelog",
     "@semantic-release/git"
   ],
-  "publish": [
-    "@semantic-release/npm"
-  ],
+  "publish": false,
   "success": []
 }
