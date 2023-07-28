@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/vegueta01/colors-library-test/compare/v1.6.0...v1.7.0) (2023-07-28)
+
+
+### Features
+
+* lerna was added ([b6e7090](https://github.com/vegueta01/colors-library-test/commit/b6e7090bf7bdfb77ef17045c5df95fd240ee7993))
+* update sub package by variable ([f0105ee](https://github.com/vegueta01/colors-library-test/commit/f0105eed533712b2db5b1f8124a064cbe780dffe))
+
 # [1.6.0](https://github.com/vegueta01/colors-library-test/compare/v1.5.0...v1.6.0) (2023-07-27)
 
 

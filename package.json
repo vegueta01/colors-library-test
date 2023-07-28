@@ -13,7 +13,7 @@
     "set:param": "npm run param -ws",
     "update:version": "semantic-release && export NEW_VERSION_PACKAGE=$(semver $npm_package_version) && npm run update-version -ws && npm publish -ws"
   },
-  "version": "1.6.0",
+  "version": "1.7.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/vegueta01/colors-library-test.git"
