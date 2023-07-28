@@ -11,7 +11,8 @@
     "update:pk": "npm version  --no-git-tag-version $(semver $npm_package_version -i major)",
     "version2": "$(echo semver $npm_package_version -i prerelease --preid $(npm whoami) )",
     "set:param": "npm run param -ws",
-    "update:version": "semantic-release && export NEW_VERSION_PACKAGE=$(semver $npm_package_version) && npm run update-version -ws && npm publish -ws"
+    "update:version": "semantic-release && npm run release-libraries",
+    "release-libraries": "export NEW_VERSION_PACKAGE=$(semver $npm_package_version) && npm run update-version -ws && npm publish -ws"
   },
   "version": "1.7.0",
   "repository": {
