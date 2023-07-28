@@ -1,0 +1,12 @@
+{
+	"packages" : ["packages/*"],
+	"version": "independent",
+	"command": {
+		"version": {
+			"createRelease": "gitlab",
+			"conventionalCommits": true,
+			"allowBranch": ["master"],
+			"message": "chore(release): publish"
+        }
+	}
+}

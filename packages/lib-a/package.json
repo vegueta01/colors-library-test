@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release"
+    "update:pk": "npm version $(semver $npm_package_version -i major)"
   },
   "keywords": [],
   "author": "",
