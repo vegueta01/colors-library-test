@@ -1,11 +1,12 @@
 {
   "name": "my-lib-a",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update:pk": "npm version $(semver $npm_package_version -i major)"
+    "update:pk": "npm version $(semver $npm_package_version -i major)",
+    "update-version": "npm version $NEW_VERSION_PACKAGE"
   },
   "keywords": [],
   "author": "",
