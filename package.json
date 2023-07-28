@@ -14,7 +14,7 @@
     "update:version": "semantic-release && npm run release-libraries",
     "release-libraries": "export NEW_VERSION_PACKAGE=$(semver $npm_package_version) && npm run update-version -ws && npm publish -ws"
   },
-  "version": "1.7.0",
+  "version": "1.8.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/vegueta01/colors-library-test.git"

@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/vegueta01/colors-library-test/compare/v1.7.0...v1.8.0) (2023-07-28)
+
+
+### Features
+
+* test release-libraries ([03d5977](https://github.com/vegueta01/colors-library-test/commit/03d5977d1ffa04d901dd2fdf8cbafe63b7c21380))
+
 # [1.7.0](https://github.com/vegueta01/colors-library-test/compare/v1.6.0...v1.7.0) (2023-07-28)
 
 
